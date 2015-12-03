@@ -1,0 +1,9 @@
+applications:
+- name: UITest_GitHubStorage
+  framework: node
+  runtime: node08
+  memory: 256MB
+  instances: 1
+  host: UITest_GitHubStorage
+  path: .
+  command: node app.js
